@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(205, 197, 197);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.form {
+    background-color: rgb(16, 127, 160);
+    width: 382px;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.score {
+    text-align: right;
+    color: rgb(20, 28, 33);
+    font-size: 1.2rem;
+    font-style: 1rem;
+    padding: 0.4rem;
+}
+
+.score > span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h2 {
+    margin-bottom: .8rem;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    font-size: .9rem;
+    margin-bottom: .8rem;
+}
+
+.btn {
+    background-color: rgb(136, 176, 211);
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius: .5rem;
+    margin-bottom: .8rem;
+    cursor: pointer;
+}
